@@ -1,0 +1,41 @@
+{
+  "identifier" : "Foraged",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "foraged_group",
+      "localizations" : [],
+      "name" : "Foraged Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "foraged_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Seasonal reminders and identification notes field",
+              "displayName" : "Foraged Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "foraged_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Foraged Pro Monthly",
+          "subscriptionGroupID" : "foraged_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
